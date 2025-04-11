@@ -13,18 +13,18 @@ def index(request):
     social_media = Social_Media.objects.all()
 
     dict_photos = {
-    "charac_photo_1":charac[0].photo_1.url,
-    "charac_photo_2":charac[0].photo_2.url,
-    "charac_photo_3":charac[0].photo_3.url,
+        "charac_photo_1":charac[0].photo_1.url,
+        "charac_photo_2":charac[0].photo_2.url,
+        "charac_photo_3":charac[0].photo_3.url,
 
-    "news_info_photo_1":news_info[0].photo_1.url,
-    "news_info_photo_2":news_info[0].photo_2.url,
-    "news_info_photo_3":news_info[0].photo_3.url,
-    "news_info_photo_4":news_info[0].photo_4.url,
-    "news_info_photo_5":news_info[0].photo_5.url,
-    "news_info_photo_6":news_info[0].photo_6.url,
+        "news_info_photo_1":news_info[0].photo_1.url,
+        "news_info_photo_2":news_info[0].photo_2.url,
+        "news_info_photo_3":news_info[0].photo_3.url,
+        "news_info_photo_4":news_info[0].photo_4.url,
+        "news_info_photo_5":news_info[0].photo_5.url,
+        "news_info_photo_6":news_info[0].photo_6.url,
 
-    "opinions_photo_1":opinions[0].main_photo.url,
+        "opinions_photo_1":opinions[0].main_photo.url,
 
     }
     
