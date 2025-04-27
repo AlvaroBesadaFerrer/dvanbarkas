@@ -1122,6 +1122,9 @@ ul.slides li {
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width:414px) {
+	.open-button {
+		display:none;
+	}
 	.scrollto {
 		padding: 95px 0px 0px 0px;
 	}
@@ -1134,6 +1137,9 @@ ul.slides li {
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
+	.open-button {
+		display:none;
+	}
 	.wrapper {
 		background:#f3f5f8;
 		height:640px;
@@ -1150,6 +1156,9 @@ ul.slides li {
 }
 /* xGA iPad */
 @media screen and (max-width:1024px) {
+	.open-button {
+		display:none;
+	}
 	.wp3 {
 		background-position:50px 0;
 	}
@@ -1162,12 +1171,18 @@ ul.slides li {
 }
 /* 1200px (Small Desktop,Netbook) */
 @media screen and (max-width:1280px) {
+	.open-button {
+		display:none;
+	}
 	.wp3 {
 		background-position: 50px 0;
 	}
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
+	.open-button {
+		display:none;
+	}
 	.iphone {
 		display:none;
 	}
@@ -1183,6 +1198,9 @@ ul.slides li {
 	}
 }
 @media screen and (max-width:50em) {
+	.open-button {
+		display:none;
+	}
 	.icon-list a {
 		padding:0.5em 0em;
 		margin:0 5px;
@@ -1198,6 +1216,9 @@ ul.slides li {
 
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
+	.open-button {
+		display:none;
+	}
 	.inner {
     padding-top: 10px;
     text-align: center;
@@ -1238,6 +1259,9 @@ ul.slides li {
 
 
 @media screen and (max-width:991px) {
+	.open-button {
+		display:none;
+	}
 	.hero {
     	padding: 0px;
 	}
