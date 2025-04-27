@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import About, What_I_do, Characteristic, News, Opinion, Contact, Social_Media
+import datetime
 
 
 def index(request):
@@ -40,6 +41,7 @@ def index(request):
         "contact": contact[0],
         "emailto": "mailto:" + contact[0].email,
         "social_media": social_media[0],
+        "year": datetime.datetime.now().year
     }
     return render(request, "polls/index.html", context)
     
