@@ -57,13 +57,13 @@ h2::after {
 }
 h6 {
 	font-size:15px;
-	color:#8c8c8c;
+	color:#646464;
 	text-transform:uppercase;
 	font-weight:bold;
 }
 h6::after {
 	content:" ";
-	border:solid 1px #CCCCCC;
+	border:solid 1px #a3a3a3;
 	display:block;
 	width:65px;
 	margin-top: 20px;
