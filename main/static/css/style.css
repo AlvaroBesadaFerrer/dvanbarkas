@@ -1122,17 +1122,7 @@ ul.slides li {
 /* ==========================================================================Responsive========================================================================== */
 /* 320px (iPhone) */
 @media screen and (max-width:414px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1149,17 +1139,7 @@ ul.slides li {
 }
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1180,17 +1160,7 @@ ul.slides li {
 }
 /* xGA iPad */
 @media screen and (max-width:1024px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1213,17 +1183,7 @@ ul.slides li {
 }
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1243,17 +1203,7 @@ ul.slides li {
 	}
 }
 @media screen and (max-width:50em) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1273,17 +1223,7 @@ ul.slides li {
 
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1328,17 +1268,7 @@ ul.slides li {
 
 
 @media screen and (max-width:991px) {
-	#open-button {
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.menu{
-		visibility: hidden;
-		opacity: 0;
-		display: none;
-	}
-	.icon-list {
+	#open-button, .menu, .icon-list, #menu-wrap {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
