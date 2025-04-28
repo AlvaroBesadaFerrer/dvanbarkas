@@ -1123,8 +1123,9 @@ ul.slides li {
 /* 320px (iPhone) */
 @media screen and (max-width:414px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.scrollto {
 		padding: 95px 0px 0px 0px;
@@ -1139,8 +1140,9 @@ ul.slides li {
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.wrapper {
 		background:#f3f5f8;
@@ -1159,8 +1161,9 @@ ul.slides li {
 /* xGA iPad */
 @media screen and (max-width:1024px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.wp3 {
 		background-position:50px 0;
@@ -1181,8 +1184,9 @@ ul.slides li {
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.iphone {
 		display:none;
@@ -1200,8 +1204,9 @@ ul.slides li {
 }
 @media screen and (max-width:50em) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.icon-list a {
 		padding:0.5em 0em;
@@ -1219,8 +1224,9 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.inner {
     padding-top: 10px;
@@ -1263,8 +1269,9 @@ ul.slides li {
 
 @media screen and (max-width:991px) {
 	#open-button {
-		color: rgba(255, 255, 255, 0);
-		display:none;
+		visibility: hidden;
+		opacity: 0;
+		display: none;
 	}
 	.hero {
     	padding: 0px;
