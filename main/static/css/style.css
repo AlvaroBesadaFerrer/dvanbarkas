@@ -1127,6 +1127,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.icon-list {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.scrollto {
 		padding: 95px 0px 0px 0px;
 	}
@@ -1140,6 +1145,11 @@ ul.slides li {
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.icon-list {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1161,6 +1171,11 @@ ul.slides li {
 /* xGA iPad */
 @media screen and (max-width:1024px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.icon-list {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1188,6 +1203,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.icon-list {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.iphone {
 		display:none;
 	}
@@ -1208,6 +1228,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.icon-list {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.icon-list a {
 		padding:0.5em 0em;
 		margin:0 5px;
@@ -1224,6 +1249,11 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.icon-list {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1269,6 +1299,11 @@ ul.slides li {
 
 @media screen and (max-width:991px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.icon-list {
 		visibility: hidden;
 		opacity: 0;
 		display: none;
