@@ -363,6 +363,7 @@ table {
 }
 /* Menu Button */
 .menu-button {
+	color:#000;
 	z-index:1000;
 	margin:0;
 	padding:0;
