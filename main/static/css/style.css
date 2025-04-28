@@ -1127,6 +1127,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.menu{
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.icon-list {
 		visibility: hidden;
 		opacity: 0;
@@ -1145,6 +1150,11 @@ ul.slides li {
 /* 480px (WVGA - Low End Windows Phone) */
 @media screen and (max-width:480px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.menu{
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1180,6 +1190,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.menu{
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.wp3 {
 		background-position:50px 0;
 	}
@@ -1199,6 +1214,11 @@ ul.slides li {
 /* Bootstrap 990px Breakpoint to 480px */
 @media screen and (min-width:480px) and (max-width:991px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.menu{
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1228,6 +1248,11 @@ ul.slides li {
 		opacity: 0;
 		display: none;
 	}
+	.menu{
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
 	.icon-list {
 		visibility: hidden;
 		opacity: 0;
@@ -1249,6 +1274,11 @@ ul.slides li {
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.menu{
 		visibility: hidden;
 		opacity: 0;
 		display: none;
@@ -1299,6 +1329,11 @@ ul.slides li {
 
 @media screen and (max-width:991px) {
 	#open-button {
+		visibility: hidden;
+		opacity: 0;
+		display: none;
+	}
+	.menu{
 		visibility: hidden;
 		opacity: 0;
 		display: none;
